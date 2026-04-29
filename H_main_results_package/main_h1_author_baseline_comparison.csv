@@ -1,0 +1,7 @@
+method,embedding,h1_wasserstein,h1_bottleneck,source_file
+author,"(2,1)",0.4933528407297071,0.1352499127388,/home/jupyter/topological fit check on scm/outputs_authorweight_tda/authorweight_embedding_summary.csv
+author,"(3,1)",1.131237277585226,0.3098634481430053,/home/jupyter/topological fit check on scm/outputs_authorweight_tda/authorweight_embedding_summary.csv
+author,"(4,1)",0.7020351660354079,0.139849305152893,/home/jupyter/topological fit check on scm/outputs_authorweight_tda/authorweight_embedding_summary.csv
+author,"(3,2)",0.1196526593269959,0.0436970889568328,/home/jupyter/topological fit check on scm/outputs_authorweight_tda/authorweight_embedding_summary.csv
+baseline,"(3,1)",1.197382963477928,0.3098634481430053,/home/jupyter/topological fit check on scm/outputs_baseline_tda/baseline_embedding_summary.csv
+baseline,"(2,1)",0.6239850194344537,0.2149232625961303,/home/jupyter/topological fit check on scm/outputs_baseline_tda/baseline_embedding_summary.csv

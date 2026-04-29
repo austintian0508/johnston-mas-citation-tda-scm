@@ -1,0 +1,3 @@
+embedding,dim,delay,treatment_start,trperiod,missouri_h1_wasserstein,placebo_mean,placebo_median,ratio_to_placebo_mean,excess_over_placebo_mean,percentile_rank_right_tail,p_value_right_tail,valid_placebo_states,failed_states,significant_5pct,evidence_strength,method
+"(3,1)",3,1,2011-04-01,424,1.185979284422379,0.417335116606411,0.3760100351787752,2.841791254151461,0.7686441678159681,100.0,0.0232558139534883,42,3,True,strong,baseline
+"(2,1)",2,1,2011-04-01,424,0.6181299581658961,0.185304903948271,0.1634154565610666,3.335745277083713,0.432825054217625,100.0,0.0232558139534883,42,3,True,strong,baseline

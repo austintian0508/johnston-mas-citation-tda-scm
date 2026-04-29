@@ -1,0 +1,7 @@
+target_file,source_file,caption,use
+fig10_method_pre_vs_post_rmspe.pdf,generated_in_08,Scatter plot of pre RMSPE versus post RMSPE across methods.,main_text
+fig11_method_post_pre_ratio.pdf,generated_in_08,Bar chart of post/pre RMSPE ratio across methods.,main_text
+fig12_author_vs_baseline_h1_comparison.pdf,generated_in_08,Bar chart of H1 Wasserstein mismatch for author and baseline methods across shared embeddings.,main_text
+fig13_baseline_vs_topology_h1_comparison.pdf,generated_in_08,Bar chart of H1 Wasserstein mismatch for baseline and topology-augmented methods.,main_text
+fig13b_author_vs_topology_h1_comparison.pdf,generated_in_08,Bar chart of H1 Wasserstein mismatch for author and topology-augmented methods.,main_text
+fig14_author_vs_topology_paths_and_centered_gaps.pdf,generated_in_08,"Missouri and synthetic paths, plus centered gaps: author weights versus topology-augmented SCM.",main_text

@@ -1,0 +1,10 @@
+target_file,source_file,caption,use
+fig01_author_replication_figure13.pdf,/home/jupyter/topological fit check on scm/outputs_authorweight/author_replication_figure13.pdf,Author replication figure.,main_text
+fig02_baseline_replication_figure13.pdf,/home/jupyter/topological fit check on scm/outputs_baseline/baseline_replication_figure13.pdf,Baseline SCM replication figure.,main_text
+fig03_baseline_vs_author_paths.pdf,/home/jupyter/topological fit check on scm/outputs_baseline/baseline_vs_author_paths.pdf,Baseline versus author path comparison.,main_text
+fig04_baseline_standardized_pre_series.pdf,/home/jupyter/topological fit check on scm/outputs_baseline_tda/baseline_standardized_pre_series.pdf,Baseline standardized pre-treatment series.,main_text
+fig05_authorweight_standardized_pre_series.pdf,/home/jupyter/topological fit check on scm/outputs_authorweight_tda/authorweight_standardized_pre_series.pdf,Author-weight standardized pre-treatment series.,main_text
+fig06_baseline_placebo_3_1_histogram.pdf,/home/jupyter/topological fit check on scm/outputs_baseline_placebo/baseline_placebo_3_1_histogram.pdf,"Baseline placebo histogram for embedding (3,1).",main_text
+fig07_baseline_placebo_2_1_histogram.pdf,/home/jupyter/topological fit check on scm/outputs_baseline_placebo/baseline_placebo_2_1_histogram.pdf,"Baseline placebo histogram for embedding (2,1).",main_text
+fig08_pre_treatment_standardized_path_baseline_vs_topology.pdf,/home/jupyter/topological fit check on scm/outputs_topology_augmented/pre_treatment_standardized_path_comparison.pdf,"Pre-treatment standardized paths: Missouri, baseline SCM, and topology-augmented SCM.",main_text
+fig09_baseline_vs_topology_augmented_paths_and_centered_gaps.pdf,/home/jupyter/topological fit check on scm/outputs_topology_augmented/baseline_vs_topology_augmented_paths.pdf,"Missouri and synthetic paths, plus centered gaps: baseline versus topology-augmented SCM.",main_text

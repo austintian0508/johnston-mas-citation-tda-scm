@@ -1,0 +1,4 @@
+            method treatment_start  n_pre  n_post  pre_rmspe  post_rmspe  post_pre_ratio                                                                                                              source_file
+            author      2011-04-01     27      29   0.161946    0.915605        5.653763                             /home/jupyter/topological fit check on scm/outputs_authorweight/authorweight_diagnostics.csv
+          baseline      2011-04-01     27      29   0.193063    0.862722        4.468610                                     /home/jupyter/topological fit check on scm/outputs_baseline/baseline_diagnostics.csv
+topology_augmented      2011-04-01     27      29   0.128232    0.719162        5.608280 /home/jupyter/topological fit check on scm/outputs_topology_augmented/baseline_vs_topology_augmented_prepost_metrics.csv

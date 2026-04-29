@@ -1,0 +1,9 @@
+                        section                                   section_title  n_files  n_csv  n_pdf  n_txt  n_json
+             A_authorweight_scm                       Author-Weight SCM Outputs        6      5      1      0       0
+             B_authorweight_tda                   Author-Weight TDA Diagnostics       41     27     13      1       0
+                 C_baseline_scm                            Baseline SCM Outputs        9      7      2      0       0
+                 D_baseline_tda                    Baseline SCM-TDA Diagnostics       23     15      7      1       0
+             E_baseline_placebo                  Baseline SCM Placebo Inference       16     11      4      1       0
+F_topology_augmented_comparison               Topology-Augmented SCM Comparison       54     39     12      2       1
+       G_topology_augmented_loo Topology-Augmented SCM Leave-One-Out Robustness       20     14      4      2       0
+         H_main_results_package               Main Results Package from File 08       32     10     15      7       0

@@ -1,0 +1,10 @@
+source_group,folder,exists,n_files_available
+author,/home/jupyter/topological fit check on scm/outputs_authorweight,True,6
+author_tda,/home/jupyter/topological fit check on scm/outputs_authorweight_tda,True,41
+baseline,/home/jupyter/topological fit check on scm/outputs_baseline,True,9
+baseline_tda,/home/jupyter/topological fit check on scm/outputs_baseline_tda,True,23
+baseline_placebo,/home/jupyter/topological fit check on scm/outputs_baseline_placebo,True,16
+topology,/home/jupyter/topological fit check on scm/outputs_topology_augmented,True,23
+topology_check,/home/jupyter/topological fit check on scm/outputs_topology_augmented_tda_check,True,31
+topology_loo,/home/jupyter/topological fit check on scm/outputs_topology_augmented_loo,True,20
+main_results,/home/jupyter/topological fit check on scm/outputs_results_tables_figures,True,32

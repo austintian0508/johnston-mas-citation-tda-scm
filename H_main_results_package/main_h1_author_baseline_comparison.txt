@@ -1,0 +1,7 @@
+  method embedding  h1_wasserstein  h1_bottleneck                                                                                            source_file
+  author     (2,1)        0.493353       0.135250 /home/jupyter/topological fit check on scm/outputs_authorweight_tda/authorweight_embedding_summary.csv
+  author     (3,1)        1.131237       0.309863 /home/jupyter/topological fit check on scm/outputs_authorweight_tda/authorweight_embedding_summary.csv
+  author     (4,1)        0.702035       0.139849 /home/jupyter/topological fit check on scm/outputs_authorweight_tda/authorweight_embedding_summary.csv
+  author     (3,2)        0.119653       0.043697 /home/jupyter/topological fit check on scm/outputs_authorweight_tda/authorweight_embedding_summary.csv
+baseline     (3,1)        1.197383       0.309863         /home/jupyter/topological fit check on scm/outputs_baseline_tda/baseline_embedding_summary.csv
+baseline     (2,1)        0.623985       0.214923         /home/jupyter/topological fit check on scm/outputs_baseline_tda/baseline_embedding_summary.csv
