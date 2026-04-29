@@ -1,0 +1,2 @@
+ full_sample_post_rmspe  full_sample_h1_wasserstein_31  max_abs_post_rmspe_change_top_drops  max_abs_h1_change_top_drops  max_pct_post_rmspe_change_top_drops  max_pct_h1_change_top_drops  all_top_drops_successful
+               0.719162                       0.646785                             0.111799                     0.086195                             15.54566                    13.326714                      True

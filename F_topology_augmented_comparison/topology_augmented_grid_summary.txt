@@ -1,0 +1,7 @@
+ lambda  success                               status  objective_value  pre_rmspe  pre_rmspe_ratio_to_baseline  topo_h1_wasserstein_31  topo_ratio_to_baseline  l1_weight_change_from_baseline  effective_donors_gt_1e_4
+   0.00     True         baseline SCM solution reused         1.000000   0.196901                     1.000000                1.197383                1.000000                        0.000000                         8
+   0.10     True Optimization terminated successfully         0.713714   0.128610                     0.653171                0.724936                0.605434                        1.505378                        28
+   0.25     True Optimization terminated successfully         0.795243   0.128771                     0.653991                0.676534                0.565011                        1.508468                        28
+   0.50     True Optimization terminated successfully         0.928188   0.128120                     0.650682                0.664562                0.555012                        1.530030                        28
+   1.00     True Optimization terminated successfully         1.195510   0.128397                     0.652087                0.650685                0.543423                        1.535880                        30
+   2.00     True Optimization terminated successfully         1.733642   0.128638                     0.653311                0.646785                0.540166                        1.536988                        31

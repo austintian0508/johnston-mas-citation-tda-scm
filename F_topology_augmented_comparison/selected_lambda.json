@@ -1,0 +1,4 @@
+{
+  "selected_lambda": 2.0,
+  "selection_rule": "pre_rmspe <= baseline_pre_rmspe * 1.25, then minimize topo_h1_wasserstein_31"
+}
