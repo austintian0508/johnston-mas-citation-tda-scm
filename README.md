@@ -41,6 +41,17 @@ outputs_appendix/
   G_topology_augmented_loo/
   H_main_results_package/
   Z_manifest/
-  code/
+
+code/
+  01_author_replication.ipynb
+  02_authorweight_tda.ipynb
+  03_baseline_scm.ipynb
+  04_baseline_tda.ipynb
+  05_baseline_placebo.ipynb
+  06_topology_augmented_scm.ipynb
+  07_topology_augmented_tda_check.ipynb
+  08_results_tables_figures.ipynb
+  09_appendix_package.ipynb
+  10_topology_augmented_loo.ipynb
 
 README.md
