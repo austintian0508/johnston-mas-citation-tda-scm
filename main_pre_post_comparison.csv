@@ -1,0 +1,4 @@
+method,treatment_start,n_pre,n_post,pre_rmspe,post_rmspe,post_pre_ratio,source_file
+author,2011-04-01,27,29,0.1619462065248018,0.9156054934033376,5.653763141794332,/home/jupyter/topological fit check on scm/outputs_authorweight/authorweight_diagnostics.csv
+baseline,2011-04-01,27,29,0.1930626679121992,0.8627218472502209,4.468610408111465,/home/jupyter/topological fit check on scm/outputs_baseline/baseline_diagnostics.csv
+topology_augmented,2011-04-01,27,29,0.1282322550292047,0.7191624029158868,5.608280091090173,/home/jupyter/topological fit check on scm/outputs_topology_augmented/baseline_vs_topology_augmented_prepost_metrics.csv

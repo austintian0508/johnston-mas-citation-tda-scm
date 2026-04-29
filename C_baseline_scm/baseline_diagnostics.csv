@@ -1,0 +1,2 @@
+treated_state,treatment_start,trperiod,pre_rmspe_baseline,post_rmspe_baseline,post_pre_ratio_baseline,n_donors,n_predictors,n_periods_total,n_periods_pre,n_periods_post
+MISSOURI,2011-04-01,424,0.19306266791219925,0.8627218472502209,4.468610408111465,45,13,56,27,29
