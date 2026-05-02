@@ -847,6 +847,107 @@ persistent homology is nonlinear, level balance does not imply topology
 balance.
 
 % ------------------------------------------------------------
+\subsection{Low-Level Sufficient Conditions and Practical Diagnostics}
+% ------------------------------------------------------------
+
+The assumptions above are intentionally high-level. This subsection provides
+concrete sufficient conditions that can be verified or approximated in
+practice, and clarifies how A6 and A10 can be operationalized.
+
+\paragraph{Assumption A12: Uniformly mixing triangular array for delay windows.}
+For each \(w\in\Delta_J\), let
+\[
+Z_{w,t}
+=
+X_{w,t}^{S,m,\ell}
+\in\R^m,
+\qquad
+t=(m-1)\ell+1,\ldots,T_0.
+\]
+Assume \(\{Z_{w,t}\}_{t}\) is strictly stationary and \(\beta\)-mixing, and
+there exist constants \(\nu>2\), \(C_\nu<\infty\), and a deterministic sequence
+\(\beta(h)\downarrow0\) such that
+\[
+\sup_{w\in\Delta_J}\E\|Z_{w,t}\|^\nu\le C_\nu,
+\qquad
+\sup_{w\in\Delta_J}\beta_w(h)\le \beta(h),
+\qquad
+\sum_{h=1}^{\infty}\beta(h)^{1-2/\nu}<\infty.
+\]
+
+\paragraph{Assumption A13: Uniform Lipschitz map from weights to window laws.}
+There exists \(L_P<\infty\) such that for all \(w,w'\in\Delta_J\),
+\[
+d_{\mathcal P}(P_w^{S},P_{w'}^{S})
+\le
+L_P\|w-w'\|_2.
+\]
+Moreover, for each \(T_0\), the empirical process
+\(w\mapsto \widehat P_{w,T_0}^{S}\) is asymptotically stochastically
+equicontinuous under \(d_{\mathcal P}\).
+
+\paragraph{Assumption A14: Empirical bridge proxies for pre--post stability.}
+Let \(\widehat f_t,\widehat g_t\) be pre-treatment proxy factors extracted from
+donors and treated outcomes using a fixed, pre-specified procedure. Assume
+\[
+\sup_{w\in\Delta_J}
+\left\|
+\widehat\mu_1-\sum_{j=2}^{J+1}w_j\widehat\mu_j
+\right\|^2
+\lesssim
+\widetilde L_{y,T_0}(w),
+\]
+\[
+\sup_{w\in\Delta_J}
+\left\|
+\widehat\eta_1-\sum_{j=2}^{J+1}w_j\widehat\eta_j
+\right\|^2
+\lesssim
+\widetilde L_{\mathrm{top},T_0}(w),
+\]
+and that these proxy inequalities remain stable across a blocked
+pre-treatment split. This assumption is an empirical diagnostic proxy for A10.
+
+\begin{proposition}[Low-level sufficient condition for A6]
+\label{prop:lowlevel-a6}
+Suppose Assumptions A12 and A13 hold, and \(J,m,\ell\) are fixed. Then
+\[
+\sup_{w\in\Delta_J}
+d_{\mathcal P}
+\left(
+\widehat P_{w,T_0}^{S},
+P_w^{S}
+\right)
+\pto0.
+\]
+Hence Assumption A6 follows.
+\end{proposition}
+
+\begin{proof}[Proof sketch]
+Because \(\Delta_J\) is compact and finite-dimensional, it admits finite
+\(\varepsilon\)-nets with polynomial covering numbers. Under Assumption A12, a
+uniform law of large numbers for \(\beta\)-mixing arrays applies on each net
+point. Assumption A13 transfers convergence from net points to all
+\(w\in\Delta_J\) via stochastic equicontinuity. Letting \(\varepsilon\downarrow0\)
+gives the displayed uniform convergence.
+\end{proof}
+
+\begin{proposition}[Operational route for A10]
+\label{prop:operational-a10}
+Suppose the factor-structure conditions in
+\Cref{prop:prepost-structure} hold, and Assumption A14 is satisfied with
+probability approaching one on blocked pre-treatment splits. Then A10 is
+empirically supported in the sense that its constants can be approximated by
+pre-treatment proxy bounds and stability checks.
+\end{proposition}
+
+\begin{remark}
+This proposition does not make A10 testable in the strict identification sense.
+It gives a falsification-oriented workflow: if blocked pre-treatment proxy
+stability fails badly, the A10 bridge is not credible for that application.
+\end{remark}
+
+% ------------------------------------------------------------
 \subsection{A Sufficient Structure for Pre--Post Stability}
 % ------------------------------------------------------------
 
