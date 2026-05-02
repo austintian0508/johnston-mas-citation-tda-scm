@@ -854,7 +854,7 @@ The assumptions above are intentionally high-level. This subsection provides
 concrete sufficient conditions that can be verified or approximated in
 practice, and clarifies how A6 and A10 can be operationalized.
 
-\paragraph{Assumption A12: Uniform mixing and moments for standardized delay windows.}
+\paragraph{Assumption A12: Uniformly mixing triangular array for delay windows.}
 For each \(w\in\Delta_J\), let
 \[
 Z_{w,t}
@@ -875,7 +875,7 @@ there exist constants \(\nu>2\), \(C_\nu<\infty\), and a deterministic sequence
 \sum_{h=1}^{\infty}\beta(h)^{1-2/\nu}<\infty.
 \]
 
-\paragraph{Assumption A13: Uniform continuity in weights and empirical equicontinuity.}
+\paragraph{Assumption A13: Uniform Lipschitz map from weights to window laws.}
 There exists \(L_P<\infty\) such that for all \(w,w'\in\Delta_J\),
 \[
 d_{\mathcal P}(P_w^{S},P_{w'}^{S})
@@ -923,7 +923,7 @@ P_w^{S}
 Hence Assumption A6 follows.
 \end{proposition}
 
-\begin{proof}
+\begin{proof}[Proof sketch]
 Because \(\Delta_J\) is compact and finite-dimensional, it admits finite
 \(\varepsilon\)-nets with polynomial covering numbers. Under Assumption A12, a
 uniform law of large numbers for \(\beta\)-mixing arrays applies on each net
